@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your E-Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:  #FFC0CB;
+  
+   
+        }
+        header {
+            background-color: #8b324d;
+            padding: 20px;
+            text-align: center;
+            color: white;
+           
+        }
+        section {
+            margin: 20px;
+        }
+        .content {
+            background-color:#8b324d;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        table {
+            margin: 20px auto;
+            width: 80%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 2px solid #8b324d;
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: #8b324d;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome To My E-Port!</h1>
+        <p>Marianne Reign S. Serzo <br><br> 9-Fairness</p>
+    </header>
+
+    <section>
+
+        <table>
+            <tr>
+                <th>Outputs</th>
+            </tr>
+            <tr>
+ <tr>
+                <td><a href="#About Me.html">About Me</a></td>
+            </tr>
+                <td><a href="#Images.html" id="b-link"> Images</a></td>
+            </tr>
+            <tr>
+                <td><a href="#Videos">Videos</a></td>
+            </tr>
+            <tr>
+                <td><a href="#Audios">Audios</a></td>
+            </tr>
+            <tr>
+                <td><a href="#reflection">Reflection</a></td>
+            </tr>
+        </table>
+    </section>
+
+<section id="About Me">
+        <div class="content">
+<img src="Me.jpg" alt"Me" align="right" width="100">
+            <h2>About Me</h2>
+ 
+            <p>Good day to all! My name is Marianne Reign S. Serzo from 9 - Fairness. I’m a student with a deep passion for learning and growing in various fields.
+ I enjoy exploring new ideas and challenging myself, both academically and personally.
+ Whether it’s diving into school projects, working with my peers, or discovering new hobbies, I always strive to give my best and keep improving.
+I hope you will enjoy my E-Portfolio! Thank you!
+
+</p>
+           
+        </div>
+</section>
+
+    <section id="Images">
+        <div class="content">
+            <h2>Images</h2>
+            <p><strong>MAPEH Stained Glass PT</strong></p>
+<img src="MAPEH Stained.jpg" alt"Stained Glass" align="left" width="100">
+<br>
+
+
+          
+        </div>
+    </section>
+
+    <section id="Videos">
+        <div class="content">
+            <h2>Videos</h2>
+            <p><strong>Stories and Poems:</strong></p>
+            <ul>
+                <li>Romance Story Set in Scotland</li>
+                <li>Buwan ng Wika Poem</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Audios">
+        <div class="content">
+            <h2>Audios</h2>
+            <p>Details of group work and collaborations, such as B.A.K.S. activities and others.</p>
+        </div>
+    </section>
+
+    <section id="reflection">
+        <div class="content">
+            <h2>Reflection and Future Plans</h2>
+            <p>Reflect on your academic journey and what you plan to achieve in the future.</p>
+        </div>
+    </section>
+
+    <h2>Feedback Form</h2>
+    <p>Please rate my portfolio <:</p>
+    
+    <form>
+       
+        <label for="rating">Rate My Portfolio:</label><br>
+        <select id="rating" name="rating">
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="fair">Fair</option>
+            <option value="poor">Poor</option>
+        </select><br><br>
+
+  
+    </form>
+</body>
+</html>
